@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors and local tools
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+
+# JavaScript / TypeScript
+node_modules/
+dist/
+coverage/
+.vite/
+.turbo/
+storybook-static/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Rust / Tauri
+target/
+src-tauri/target/
+**/*.rs.bk
+
+# Test and cache output
+.cache/
+.eslintcache
+playwright-report/
+test-results/
+
+# Local RetroBoy data and game content
+*.gb
+*.gbc
+*.rom
+*.sav
+*.srm
+*.state
+*.rtc
+*.cht
+*.ips
+*.bps
+*.ups
+roms/
+saves/
+states/
+screenshots/
+user-data/
+
+# Build, signing, and packaging artifacts
+*.app
+*.dmg
+*.pkg
+*.zip
+*.log
