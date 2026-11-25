@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-This file is the notice inventory for RetroBoy. Phase 0A records planned dependencies only; no dependency has been vendored or installed yet.
+This file is the notice inventory for RetroBoy. RetroBoy's own code is available under the MIT License. Phase 0 records planned dependencies only; no dependency has been vendored or installed yet.
 
 ## Planned core dependency
 
@@ -9,8 +9,9 @@ This file is the notice inventory for RetroBoy. Phase 0A records planned depende
 - Purpose: Game Boy and Game Boy Color emulation core.
 - Integration: pinned and vendored C source behind a Rust FFI adapter.
 - Upstream: <https://github.com/LIJI32/SameBoy>
-- Revision: pending Phase 0B selection.
-- License and required notice text: must be verified against the selected revision before vendoring.
+- Candidate revision for the Phase 0B spike: `v1.0.5`, commit `ea667ad79aa28409f034b1fd6da7304e1844750d`; not yet accepted as the production pin.
+- Candidate core license: Expat License, copyright 2015–2026 Lior Halphon. Preserve the upstream copyright and permission notice in source and distributed notices.
+- Scope warning: the upstream `iOS` directory has an additional digital-marketplace condition, and `HexFiend` is excluded from the repository-wide Expat declaration. RetroBoy does not plan to use either directory; any future use requires a new review.
 - Modifications: any RetroBoy patches must be documented and distributed as required by the upstream license.
 
 ## Planned application dependencies
@@ -30,7 +31,7 @@ Before any public binary release:
 1. Lock all production dependency revisions.
 2. Run an automated license inventory and review it manually.
 3. Include complete required notices and corresponding source/offer obligations.
-4. Confirm compatibility with the selected RetroBoy application license.
+4. Confirm compatibility with RetroBoy's MIT License and distribution model.
 5. Make the notice inventory available in the repository and, where appropriate, inside the application or distribution bundle.
 
 This document is not legal advice. Licensing uncertainties must be resolved before distribution.

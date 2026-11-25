@@ -33,4 +33,4 @@ Exact commands will be added after Phase 0B chooses and scaffolds the toolchain.
 
 ## Licensing
 
-The application license is pending. Contributions cannot be accepted under a clear long-term licensing model until it is selected. Third-party code and assets must have compatible licenses and preserved attribution.
+Contributions to RetroBoy are accepted under the repository's MIT License. By submitting a contribution, you agree that it may be distributed under that license. Third-party code and assets must have compatible licenses and preserved attribution.

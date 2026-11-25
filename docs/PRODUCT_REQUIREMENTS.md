@@ -10,7 +10,7 @@ Status labels: **Committed** is required for V1; **Validation** needs Phase 0B e
 | OS support | Minimum macOS version | Pending |
 | Systems | Game Boy and Game Boy Color | Committed |
 | Core | Pinned, vendored SameBoy C revision | Committed |
-| Distribution | Free and open source | Proposed; license pending |
+| Distribution | Free and open source under the MIT License | Committed |
 | Privacy | No accounts and no telemetry | Committed |
 
 ## Functional requirements

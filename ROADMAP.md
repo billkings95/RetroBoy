@@ -11,12 +11,14 @@ This roadmap expresses sequence and exit criteria, not delivery dates.
 - [x] Establish design workflow and UI principles.
 - [x] Record validation questions, testing strategy, and privacy posture.
 - [x] Register the official Figma file without changing it.
-- [ ] Select the application license.
+- [x] Select the MIT application license.
 - [ ] Select the minimum supported macOS version.
 
 ## Phase 0B — Technical validation
 
 **Goal:** retire the highest-risk assumptions with disposable prototypes and recorded evidence.
+
+**Status:** started. The SameBoy integration spike is the first active validation track.
 
 - Validate SameBoy C integration and licensing obligations.
 - Compare WebGL2 and a native rendering path for latency, pacing, shader flexibility, maintainability, and Tauri compatibility.

@@ -91,4 +91,4 @@ React, TypeScript, Vite, Tauri 2/Rust, SameBoy, Base UI, shadcn-style components
 - SameBoy revision, update policy, and patch strategy.
 - Library database/file format and managed-copy policy.
 - Rewind storage algorithm and abandoned-future behavior.
-- Application license and distribution channel.
+- Distribution channel.

@@ -2,6 +2,8 @@
 
 Phase 0B should answer the following with small disposable prototypes, repeatable measurements, and written decisions. Prototype code is not automatically production code.
 
+Validation plans and ADR conventions live in `docs/validation/` and `docs/adr/`. The first active track is the SameBoy integration spike.
+
 ## 1. SameBoy integration
 
 Validate:
@@ -9,7 +11,7 @@ Validate:
 - a pinned upstream revision builds for Apple Silicon through the intended Rust/C toolchain;
 - core initialization, ROM loading, frame stepping, input, audio, video, save RAM, RTC, and serialized state work through a narrow adapter;
 - allocation, pointer ownership, panic/error boundaries, and thread confinement are explicit;
-- upstream license, source availability, modifications, and notice obligations are compatible with the eventual app license and distribution;
+- upstream license, source availability, modifications, and notice obligations are compatible with RetroBoy's MIT License and distribution model;
 - an update/patch policy can preserve reproducible builds.
 
 Deliverable: integration spike, API boundary sketch, license note, benchmark baseline, and ADR.

@@ -13,7 +13,7 @@ The project is currently in **Phase 0 — Foundation and validation**. There is 
 - **UI:** Base UI primitives, shadcn-style owned components, Tailwind CSS, and Storybook.
 - **Design workflow:** the official Figma file plus Figma MCP/Codex, with human approval before design changes.
 - **Privacy:** no accounts and no telemetry.
-- **Distribution:** free and open source is the proposal; the application license is not yet selected.
+- **Distribution:** free and open source under the MIT License.
 
 See [Product Vision](docs/PRODUCT_VISION.md), [Product Requirements](docs/PRODUCT_REQUIREMENTS.md), [Architecture](docs/ARCHITECTURE.md), and the [Roadmap](ROADMAP.md) for the current source of truth.
 
@@ -31,4 +31,4 @@ The project is not yet ready for feature contributions. Design and technical pro
 
 ## License
 
-The application license is pending. Until a license is added, no permission is granted to copy, modify, or redistribute the project contents beyond what applicable law permits.
+RetroBoy is licensed under the [MIT License](LICENSE). Third-party components and assets remain subject to their respective licenses and notices.
